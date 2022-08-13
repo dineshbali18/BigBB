@@ -59,7 +59,7 @@ export default function CheckPercenta({routes,navigation}) {
   return (
     <>
     <View key={index}>
-    <Text style={{marginLeft:'10%',fontSize:25}}>{names[index]}({percentage.toFixed(2)})%</Text>
+    <Text style={{marginLeft:'10%',fontSize:25}}>{names[index]}({percentage.toFixed(2)}%)</Text>
     <View >
       <View  style={{height: 20,
    flexDirection: "row",
